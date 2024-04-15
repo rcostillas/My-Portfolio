@@ -162,7 +162,7 @@ body {
   }
 }
 
-.feature-card:hover {
+.highlight-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
@@ -228,3 +228,4 @@ body {
     transform: rotate(0deg);
   }
 }
+

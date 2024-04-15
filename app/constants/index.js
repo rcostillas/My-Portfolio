@@ -1,4 +1,5 @@
 import { MCSA_BI_Reporting } from "../constants";
+import { Send, Shield, degree } from "../assets";
 //   people01,
 //   people02,
 //   people03,
@@ -10,10 +11,6 @@ import { MCSA_BI_Reporting } from "../constants";
 //   binance,
 //   coinbase,
 //   dropbox,
-//   send,
-//   shield,
-//   star,
-// } from "../assets";
 
 export const navLinks = [
   {
@@ -65,29 +62,29 @@ export const certifications = [
   },
 ];
 
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+export const about_me = [
+  {
+    id: "about_me-1",
+    icon: degree,
+    title: "Degree",
+    content:
+      "A BS Computer Science graduate from the Philippines, currently pursuing Software Development studies at the Southern Alberta Institute of Technology in Calgary, Canada.",
+  },
+  {
+    id: "about_me-2",
+    icon: Shield,
+    title: "Working Experience",
+    content:
+      "Experienced Business Analyst with strong data analysis skills, experienced in SharePoint and QuickBase administration, and proficient in Discrete Event Simulation modeling techniques.",
+  },
+  {
+    id: "about_me-3",
+    icon: Send,
+    title: "Passion in Teaching",
+    content:
+      "Enthusiastic about educating on Microsoft Excel, covering a wide array of topics from fundamental to advanced levels, including Power Query, Pivot, Visual Basic for Applications (VBA), and the creation of Excel dashboards.",
+  },
+];
 
 // export const feedback = [
 //   {
