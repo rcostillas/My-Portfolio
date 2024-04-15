@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "./style";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Certifications from "./components/Certifications";
 
@@ -17,7 +17,7 @@ const Page = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
+        <Home />
         <AboutMe />
         <Certifications />
       </div>

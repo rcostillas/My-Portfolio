@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "../style";
-import LinkedIn_Romeo2 from "../assets/LinkedIn_Romeo2.jpg";
-import logo2 from "../assets/logo2.png";
+// import LinkedIn_Romeo2 from "../assets/LinkedIn_Romeo2.jpg";
+// import logo2 from "../assets/logo2.png";
+// import GetStarted from "./GetStarted";
 
-import GetStarted from "./GetStarted";
-
-const Hero = () => {
+const Home = () => {
   const imagePath = "../assets/logo2.png";
 
   return (
@@ -24,18 +23,14 @@ const Hero = () => {
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             Romeo Costillas <br className="sm:block hidden" />{" "}
             <h2 className="text-gradient animate-pulse">
-              Microsoft Certified Professional
+              Microsoft Certified Professional1
             </h2>
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
-          Currently working as a Business Analyst at Thermal Systems, my core
-          responsibility revolves around administrating the QuickBase platform.
-          In addition to this role, I am also engaged as a casual employee at
-          the Calgary Board of Education, where I conduct Microsoft Office
-          training sessions. I hold a degree in Computer Science and am
-          currently pursuing a diploma in Software Development, further
-          enhancing my expertise in the field.
+          I'm Romeo Costillas, and I'm passionate about teaching Microsoft
+          Office, especially Excel, to empower individuals with valuable skills
+          in data analysis.
         </p>
       </div>
       <div
@@ -58,4 +53,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
