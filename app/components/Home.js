@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import TypeWriter from "./Typewriter";
 // import LinkedIn_Romeo2 from "../assets/LinkedIn_Romeo2.jpg";
 // import logo2 from "../assets/logo2.png";
 // import GetStarted from "./GetStarted";
@@ -16,22 +17,33 @@ const Home = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-          {/* Discount information */}
-        </div>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Romeo Costillas <br className="sm:block hidden" />{" "}
-            <h2 className="text-gradient animate-pulse">
-              Microsoft Certified Professional1
-            </h2>
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[48px] text-[32px] text-white ss:leading-[67.2px] leading-[46px]">
+            Hi!{" "}
+            <span className="wave" role="img" aria-labelledby="wave">
+              👋🏻
+            </span>
+            <br className="sm:block hidden" />{" "}
           </h1>
         </div>
+
+        <div className="text-gradient">I'm Romeo Costillas</div>
+
         <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
-          I'm Romeo Costillas, and I'm passionate about teaching Microsoft
-          Office, especially Excel, to empower individuals with valuable skills
-          in data analysis.
+          I'm passionate about teaching Microsoft Office, especially Excel, to
+          empower individuals with valuable skills in data analysis. With over
+          15 years of experience as an Excel instructor and creator of reports
+          and dashboard, I've had the privilege of helping countless individuals
+          unlock the full potential of their data. Let's dive into the world of
+          Excel together and unleash its power for insightful analysis and
+          informed decision-making.
+          <br />
+          <br />
         </p>
+
+        <div className="text-gradient">
+          <TypeWriter />
+        </div>
       </div>
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative animate-wiggle`}
