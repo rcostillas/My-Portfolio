@@ -39,79 +39,80 @@ export const navLinks = [
   },
 ];
 
-export const certifications = [
-  {
-    id: "certification-1",
-    logo: "MCSA_BI_Reporting.png",
-    source: "/Images/MCSA_BI_Reporting.png",
-    name: "MCSA BI Reporting",
-  },
+// export const certifications = [
+//   {
+//     id: "certification-1",
+//     logo: "MCSA_BI_Reporting.png",
+//     source: "/Images/MCSA_BI_Reporting.png",
+//     name: "MCSA BI Reporting",
+//   },
 
-  {
-    id: "certification-2",
-    logo: "MOS Master.png",
-    source: "/Images/MOS_Master.png",
-    name: "MOS Master",
-  },
+//   {
+//     id: "certification-2",
+//     logo: "MOS Master.png",
+//     source: "/Images/MOS_Master.png",
+//     name: "MOS Master",
+//   },
 
-  {
-    id: "certification-3",
-    logo: "MOS Excel Expert.png",
-    source: "/Images/MOS_Excel_Expert.png",
-    name: "MOS Excel Expert",
-  },
-];
+//   {
+//     id: "certification-3",
+//     logo: "MOS Excel Expert.png",
+//     source: "/Images/MOS_Excel_Expert.png",
+//     name: "MOS Excel Expert",
+//   },
+// ];
 
 export const about_me = [
   {
     id: "about_me-1",
-    icon: degree,
+    icon: "/Images/degree.png",
     title: "Degree",
     content:
       "A BS Computer Science graduate from the Philippines, currently pursuing Software Development studies at the Southern Alberta Institute of Technology in Calgary, Canada.",
   },
   {
     id: "about_me-2",
-    icon: Shield,
+    icon: "/Images/work.png",
     title: "Working Experience",
     content:
       "Experienced Business Analyst with strong data analysis skills, experienced in SharePoint and QuickBase administration, and proficient in Discrete Event Simulation modeling techniques.",
   },
   {
     id: "about_me-3",
-    icon: Send,
+    icon: "/Images/teach.png",
     title: "Passion in Teaching",
     content:
       "Enthusiastic about educating on Microsoft Excel, covering a wide array of topics from fundamental to advanced levels, including Power Query, Pivot, Visual Basic for Applications (VBA), and the creation of Excel dashboards.",
   },
 ];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
+export const certifications = [
+  {
+    id: "certifications-1",
+    source: "/Images/MCSA_BI_Reporting.png",
+    content: "Microsoft Certified Solutions Associate BI Reporting",
+  },
+  {
+    id: "certifications-2",
+    source: "/Images/MOS_Master.png",
+    content: "Microsoft Office Specialist Master",
+  },
+  {
+    id: "certifications-3",
+    source: "/Images/MOS_Excel_Expert.png",
+    content: "Microsoft Office Specialist Excel Expert",
+  },
+  {
+    id: "certifications-4",
+    source: "/Images/Six Sigma.png",
+    content: "Six Sigma Green Belt",
+  },
+  {
+    id: "certifications-5",
+    source: "/Images/pcc.png",
+    content: "Person-Centered Care Fellow",
+  },
+];
 
 // export const stats = [
 //   {
