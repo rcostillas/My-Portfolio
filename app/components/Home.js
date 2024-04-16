@@ -27,7 +27,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <div className="text-gradient">I'm Romeo Costillas</div>
+        {/* <div className="text-gradient">I'm Romeo Costillas</div> */}
 
         {/* <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
           I'm passionate about teaching Microsoft Office, especially Excel, to
