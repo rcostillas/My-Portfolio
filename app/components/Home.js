@@ -27,19 +27,19 @@ const Home = () => {
           </h1>
         </div>
 
-        {/* <div className="text-gradient">I'm Romeo Costillas</div> */}
+        <div className="text-gradient">I&apos;m Romeo Costillas</div>
 
-        {/* <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
-          I'm passionate about teaching Microsoft Office, especially Excel, to
-          empower individuals with valuable skills in data analysis. With over
-          15 years of experience as an Excel instructor and creator of reports
-          and dashboard, I've had the privilege of helping countless individuals
-          unlock the full potential of their data. Let's dive into the world of
-          Excel together and unleash its power for insightful analysis and
-          informed decision-making.
+        <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+          I&apos;m passionate about teaching Microsoft Office, especially Excel,
+          to empower individuals with valuable skills in data analysis. With
+          over 15 years of experience as an Excel instructor and creator of
+          reports and dashboard, I've had the privilege of helping countless
+          individuals unlock the full potential of their data. Let's dive into
+          the world of Excel together and unleash its power for insightful
+          analysis and informed decision-making.
           <br />
           <br />
-        </p> */}
+        </p>
 
         <div className="text-gradient">
           <TypeWriter />
