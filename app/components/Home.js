@@ -50,7 +50,7 @@ const Home = () => {
       >
         <img
           src={"/Images/LinkedIn_Romeo2.jpg"}
-          alt="Romeo Costillas"
+          alt="Romeo Costillasx"
           className="w-[50%] h-[auto] relative z-[10] rounded-[40px] hover:rotate-6 shadow-lg shadow-cyan-500/50"
           style={{
             border:

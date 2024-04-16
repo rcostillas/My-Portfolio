@@ -1,6 +1,7 @@
 import { useState } from "react";
+import Image from "next/image";
 import { navLinks } from "../constants";
-import { close, menu, logo, logo2 } from "../assets";
+import { close, menu, logo2 } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -8,14 +9,11 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img
-        src={"/Images/logo2.png"}
-        alt="excel"
-        className="w-[70px] h-[auto]"
-      />
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-        My Portfolio
-      </span>
+      <div style={{ width: "70px", height: "auto" }}>
+        <Image src={logo2} alt="excel" width={70} height={70} />
+      </div>
+
+      <div>My Portfolio</div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

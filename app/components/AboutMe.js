@@ -2,6 +2,7 @@ import React from "react";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { about_me } from "../constants";
+import Image from "next/image";
 
 const Highlights = ({ icon, title, content, index }) => (
   <div
