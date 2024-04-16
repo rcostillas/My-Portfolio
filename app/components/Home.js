@@ -29,7 +29,7 @@ const Home = () => {
 
         <div className="text-gradient">I'm Romeo Costillas</div>
 
-        <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+        {/* <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
           I'm passionate about teaching Microsoft Office, especially Excel, to
           empower individuals with valuable skills in data analysis. With over
           15 years of experience as an Excel instructor and creator of reports
@@ -39,7 +39,7 @@ const Home = () => {
           informed decision-making.
           <br />
           <br />
-        </p>
+        </p> */}
 
         <div className="text-gradient">
           <TypeWriter />
