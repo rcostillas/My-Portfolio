@@ -26,7 +26,7 @@ const Home = () => {
             <br className="sm:block hidden" />{" "}
           </h1>
         </div>
-
+        {/* 
         <div className="text-gradient">{"Im Romeo Costillas"}</div>
 
         <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
@@ -39,7 +39,7 @@ const Home = () => {
           analysis and informed decision-making.
           <br />
           <br />
-        </p>
+        </p> */}
 
         <div className="text-gradient">
           <TypeWriter />
