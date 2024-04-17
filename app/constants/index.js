@@ -22,16 +22,12 @@ export const navLinks = [
     title: "About Me",
   },
   {
-    id: "certifications",
+    id: "mycertifications",
     title: "Certifications",
   },
   {
-    id: "work_experience",
+    id: "experience",
     title: "Work Experience",
-  },
-  {
-    id: "projects",
-    title: "Projects",
   },
   {
     id: "contact",
@@ -109,7 +105,7 @@ export const certifications = [
   },
   {
     id: "certifications-5",
-    source: "/Images/pcc.png",
+    source: "/Images/PCC.png",
     content: "Person-Centered Care Fellow",
   },
 ];

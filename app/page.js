@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Certifications from "./components/Certifications";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 const Page = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -20,6 +22,8 @@ const Page = () => (
         <Home />
         <AboutMe />
         <Certifications />
+        <Experience />
+        <Contact />
       </div>
     </div>
   </div>

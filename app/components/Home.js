@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <section
       id="home"
+      title="Home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
       style={{ paddingTop: "0" }}
     >

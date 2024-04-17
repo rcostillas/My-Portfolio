@@ -1,14 +1,26 @@
 import React from "react";
-import styles from "../style";
+// import styles from "../style";
+import styles, { layout } from "../style";
 import { certifications } from "../constants";
 import CertificationCard from "./CertificationCard";
 
 const Certifications = () => {
   return (
+    //     <section
+    //       id="certifications"
+    //       className={`flex md:flex-row flex-col ${styles.paddingY}`}
+    //       style={{ paddingTop: "0" }}
+    // >
+    // <section
+    //   id="certifications"
+    //   className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
+    //
+    //</section>
+    //<section id="mycertifications" className={layout.section}>
     <section
-      id="certifications"
+      id="mycertifications"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
-      style={{ paddingTop: "0" }}
+      style={{ paddingTop: "20" }}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}

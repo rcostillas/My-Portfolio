@@ -27,7 +27,7 @@ const Highlights = ({ icon, title, content, index }) => (
 );
 
 const AboutMe = () => (
-  <section id="about_me" className={layout.section}>
+  <section id="about_me" title="About Me" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Driven to continously enhance, <br className="sm:block hidden" /> my
@@ -36,7 +36,7 @@ const AboutMe = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         With this mindset, I aim to share my knowledge with everyone to the best
         of my ability, whether through video tutorials, engaging with the
-        community on social media, or answering questions.
+        community on social media, or answering some real-life questions.
       </p>
 
       <Button styles={`mt-10`} />
