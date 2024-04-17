@@ -7,8 +7,8 @@ const Contact = () => {
       <div className="py-2 px-4 mx-auto max-w-screen-md">
         <h2 className="text-gradient">Contact Us</h2>
         <p className="mb-4 font-poppins font-semibold text-left  text-gray-500 sm:text-xl">
-          Got questions about Excel, training requests, or any other inquiries?
-          Drop us a message, I'm here to help!
+          {`Got questions about Excel, training requests, or any other inquiries?
+          Drop us a message, I'm here to help!`}
         </p>
         <form action="#">
           <div className="flex flex-row">
