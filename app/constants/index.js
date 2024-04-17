@@ -35,29 +35,6 @@ export const navLinks = [
   },
 ];
 
-// export const certifications = [
-//   {
-//     id: "certification-1",
-//     logo: "MCSA_BI_Reporting.png",
-//     source: "/Images/MCSA_BI_Reporting.png",
-//     name: "MCSA BI Reporting",
-//   },
-
-//   {
-//     id: "certification-2",
-//     logo: "MOS Master.png",
-//     source: "/Images/MOS_Master.png",
-//     name: "MOS Master",
-//   },
-
-//   {
-//     id: "certification-3",
-//     logo: "MOS Excel Expert.png",
-//     source: "/Images/MOS_Excel_Expert.png",
-//     name: "MOS Excel Expert",
-//   },
-// ];
-
 export const about_me = [
   {
     id: "about_me-1",
@@ -107,6 +84,30 @@ export const certifications = [
     id: "certifications-5",
     source: "/Images/PCC.png",
     content: "Person-Centered Care Fellow",
+  },
+];
+
+export const experiences = [
+  {
+    id: "experience-1",
+    position: "Microsoft Office Trainer",
+    company: "Calgary Board of Education",
+    duties:
+      "•	Design and develop comprehensive Microsoft Office training programs particularly in Word, Excel, and specialized course in Excel – Creating Dashboards in Excel",
+  },
+  {
+    id: "experience-2",
+    position: "Microsoft Office Trainer",
+    company: "Calgary Board of Education",
+    duties:
+      "•	Design and develop comprehensive Microsoft Office training programs particularly in Word, Excel, and specialized course in Excel – Creating Dashboards in Excel",
+  },
+  {
+    id: "experience-3",
+    position: "Microsoft Office Trainer",
+    company: "Calgary Board of Education",
+    duties:
+      "•	Design and develop comprehensive Microsoft Office training programs particularly in Word, Excel, and specialized course in Excel – Creating Dashboards in Excel",
   },
 ];
 
