@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <section id="contact" className={layout.section}>
       <div className="py-2 px-4 mx-auto max-w-screen-md">
-        <h2 className="text-gradient">Contact Us</h2>
-        <p className="mb-4 font-poppins font-semibold text-left  text-gray-500 sm:text-xl">
+        <h2 className="font-semibold text-gradient">Contact Us</h2>
+        <p className="mb-4 font-poppins font-semibold text-left  text-gray-200 sm:text-xl">
           {`Got questions about Excel, training requests, or any other inquiries?
           Drop us a message, I'm here to help!`}
         </p>
@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="w-1/2 pr-2 ">
               <label
                 for="firstName"
-                className="block my-2 text-left text-sm font-poppins font-semibold text-black-900"
+                className="block my-2 text-left text-sm font-poppins font-semibold text-dimWhite"
               >
                 First Name
               </label>
@@ -28,8 +28,8 @@ const Contact = () => {
             </div>
             <div className="w-1/2 pl-2">
               <label
-                for="firstName"
-                className="block my-2 text-left text-sm font-poppins font-semibold text-gray-900"
+                for="lastName"
+                className="block my-2 text-left text-sm font-poppins font-semibold text-dimWhite"
               >
                 Last Name
               </label>
@@ -43,7 +43,7 @@ const Contact = () => {
           <div>
             <label
               for="email"
-              className="block my-2 text-left text-sm font-medium text-gray-900"
+              className="block my-2 text-left text-sm font-poppins font-semibold text-dimWhite"
             >
               Your email
             </label>
@@ -57,7 +57,7 @@ const Contact = () => {
           <div>
             <label
               for="subject"
-              className="block my-2 text-left text-sm font-medium text-gray-900"
+              className="block my-2 text-left text-sm font-poppins font-semibold text-dimWhite"
             >
               Subject
             </label>
@@ -71,7 +71,7 @@ const Contact = () => {
           <div>
             <label
               for="message"
-              className="block my-2 text-left text-sm font-medium text-gray-900 "
+              className="block my-2 text-left text-sm font-poppins font-semibold text-dimWhite"
             >
               Your message
             </label>
