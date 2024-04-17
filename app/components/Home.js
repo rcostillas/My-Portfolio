@@ -26,10 +26,10 @@ const Home = () => {
             <br className="sm:block hidden" />{" "}
           </h1>
         </div>
-        {/* 
-        <div className="text-gradient">{"Im Romeo Costillas"}</div>
 
-        <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+        <div className="text-gradient">{`I'm Romeo Costillas`}</div>
+
+        {/* <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
           I&apos;m passionate about teaching Microsoft Office, especially Excel,
           to empower individuals with valuable skills in data analysis. With
           over 15 years of experience as an Excel instructor and creator of
