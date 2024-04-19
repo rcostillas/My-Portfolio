@@ -91,23 +91,30 @@ export const experiences = [
   {
     id: "experience-1",
     position: "Microsoft Office Trainer",
-    company: "Calgary Board of Education",
+    company: "Calgary Board of Education, Canada",
     duties:
-      "•	Design and develop comprehensive Microsoft Office training programs particularly in Word, Excel, and specialized course in Excel – Creating Dashboards in Excel",
+      "•	Conduct training sessions to educate individuals or groups on the effective use of Microsoft Word, PowerPoint, and Excel, covering topics such as document creation, formatting, presentation design, data analysis, and advanced features to enhance productivity and proficiency.",
   },
   {
     id: "experience-2",
-    position: "Microsoft Office Trainer",
-    company: "Calgary Board of Education",
+    position: "Business Analyst",
+    company: "Thermal Systems, Canada",
     duties:
-      "•	Design and develop comprehensive Microsoft Office training programs particularly in Word, Excel, and specialized course in Excel – Creating Dashboards in Excel",
+      "•	Manage the QuickBase database; Offer solutions to stakeholders using the QuickBase database and generate reports and dashboards as needed.",
   },
   {
     id: "experience-3",
-    position: "Microsoft Office Trainer",
-    company: "Calgary Board of Education",
+    position: "Project Manager",
+    company: "Hamad Medical Corporation, Qatar",
     duties:
-      "•	Design and develop comprehensive Microsoft Office training programs particularly in Word, Excel, and specialized course in Excel – Creating Dashboards in Excel",
+      "•	Led a Simulation & Modelling Team, utilizing discrete simulation models to improve process capability and efficiency across multiple sites. Employed project management methodologies to create detailed plans and effectively communicated outcomes to stakeholders. Implemented business intelligence dashboards and reports using Advanced Excel and Power BI, while also serving as a SharePoint site owner.",
+  },
+  {
+    id: "experience-4",
+    position: "Business Analyst & Reporting Specialist",
+    company: "JP Morgan Chase & Co., Philippines",
+    duties:
+      "•	Engaged in daily activities involving data collection, consolidation, analysis, and reporting from various data sources and global applications. Provided timely and actionable information to assist management in personnel and technology resource planning and management. Utilized different tools such as Access, SQL, and Advanced Excel to carry out these tasks effectively.",
   },
 ];
 
